@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片展示框</title>
+    <style>
+        body {
+            background-color: #1a1a1a; /* 黑色背景 */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            flex-direction: column; /* 讓內容垂直排列 */
+            gap: 20px;
+        }
+        
+        .image-frame {
+            background-color: #2d2d2d; /* 較深的灰色作為背景 */
+            border: 2px solid #ffffff; /* 白色邊框 */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            max-width: 90%;
+            text-align: center;
+        }
+
+        /* 圖片的容器 */
+        .image-frame .image-container {
+            max-width: 800px; /* 將最大寬度從 400px 增加到 800px */
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .image-frame .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .image-caption {
+            margin-top: 15px;
+            font-size: 1.2em;
+            color: #e0e0e0;
+        }
+
+        /* 手機適應性調整 */
+        @media (max-width: 768px) {
+            .image-frame {
+                padding: 15px;
+            }
+            .image-caption {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-frame">
+        <p class="image-caption">題目一</p>
+        <div class="image-container">
+            <img src="(1).png" alt="圖片說明 1">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目二</p>
+        <div class="image-container">
+            <img src="(2).png" alt="圖片說明 2">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目三</p>
+        <div class="image-container">
+            <img src="(3).png" alt="圖片說明 3">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目四</p>
+        <div class="image-container">
+            <img src="(4).png" alt="圖片說明 4">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目五</p>
+        <div class="image-container">
+            <img src="(5).png" alt="圖片說明 5">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目六</p>
+        <div class="image-container">
+            <img src="(6).png" alt="圖片說明 6">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目七</p>
+        <div class="image-container">
+            <img src="(7).png" alt="圖片說明 7">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目八</p>
+        <div class="image-container">
+            <img src="(8).png" alt="圖片說明 8">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目九</p>
+        <div class="image-container">
+            <img src="(9).png" alt="圖片說明 9">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十</p>
+        <div class="image-container">
+            <img src="(10).png" alt="圖片說明 10">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十一</p>
+        <div class="image-container">
+            <img src="(11).png" alt="圖片說明 11">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十二</p>
+        <div class="image-container">
+            <img src="(12).png" alt="圖片說明 12">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十三</p>
+        <div class="image-container">
+            <img src="(13).png" alt="圖片說明 13">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十四</p>
+        <div class="image-container">
+            <img src="(14).png" alt="圖片說明 14">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十五</p>
+        <div class="image-container">
+            <img src="(15).png" alt="圖片說明 15">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十六</p>
+        <div class="image-container">
+            <img src="(16).png" alt="圖片說明 16">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十七</p>
+        <div class="image-container">
+            <img src="(17).png" alt="圖片說明 17">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十八</p>
+        <div class="image-container">
+            <img src="(18).png" alt="圖片說明 18">
+        </div>
+    </div>
+    
+    <div class="image-frame">
+        <p class="image-caption">題目十九</p>
+        <div class="image-container">
+            <img src="(19).png" alt="圖片說明 19">
+        </div>
+    </div>
+
+</body>
+</html>
